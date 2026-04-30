@@ -1,0 +1,112 @@
+
+==================================================
+Agent: LinUCB (guard+soft)
+==================================================
+  time_to_mastery_mean     :   49.233
+  time_to_mastery_std      :    5.964
+  feasible_rate_mean       :    0.965
+  feasible_rate_std        :    0.014
+  fatigue_overload_rate_mean:    0.035
+  fatigue_overload_rate_std:    0.014
+  avg_constraint_violation_mean:    0.001
+  avg_constraint_violation_std:    0.001
+  avg_fatigue_mean         :    0.513
+  avg_fatigue_std          :    0.106
+  total_reward_raw_mean    :  -62.472
+  total_reward_raw_std     :    9.114
+
+==================================================
+Agent: LinUCB (guard only)
+==================================================
+  time_to_mastery_mean     :   49.233
+  time_to_mastery_std      :    5.964
+  feasible_rate_mean       :    0.965
+  feasible_rate_std        :    0.014
+  fatigue_overload_rate_mean:    0.035
+  fatigue_overload_rate_std:    0.014
+  avg_constraint_violation_mean:    0.001
+  avg_constraint_violation_std:    0.001
+  avg_fatigue_mean         :    0.513
+  avg_fatigue_std          :    0.106
+  total_reward_raw_mean    :  -62.472
+  total_reward_raw_std     :    9.114
+
+==================================================
+Agent: LinUCB (soft only)
+==================================================
+  time_to_mastery_mean     :   53.133
+  time_to_mastery_std      :    7.982
+  feasible_rate_mean       :    0.920
+  feasible_rate_std        :    0.043
+  fatigue_overload_rate_mean:    0.080
+  fatigue_overload_rate_std:    0.043
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.002
+  avg_fatigue_mean         :    0.491
+  avg_fatigue_std          :    0.116
+  total_reward_raw_mean    :  -67.350
+  total_reward_raw_std     :   13.446
+
+==================================================
+Agent: LinUCB (no safety)
+==================================================
+  time_to_mastery_mean     :   49.667
+  time_to_mastery_std      :    1.120
+  feasible_rate_mean       :    0.931
+  feasible_rate_std        :    0.052
+  fatigue_overload_rate_mean:    0.069
+  fatigue_overload_rate_std:    0.052
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.003
+  avg_fatigue_mean         :    0.484
+  avg_fatigue_std          :    0.110
+  total_reward_raw_mean    :  -64.652
+  total_reward_raw_std     :    8.340
+
+==================================================
+Agent: PianoMPC (default)
+==================================================
+  time_to_mastery_mean     :   26.200
+  time_to_mastery_std      :    4.739
+  feasible_rate_mean       :    0.918
+  feasible_rate_std        :    0.059
+  fatigue_overload_rate_mean:    0.082
+  fatigue_overload_rate_std:    0.059
+  avg_constraint_violation_mean:    0.002
+  avg_constraint_violation_std:    0.002
+  avg_fatigue_mean         :    0.494
+  avg_fatigue_std          :    0.024
+  total_reward_raw_mean    :  -33.089
+  total_reward_raw_std     :    9.742
+
+==================================================
+Agent: PianoMPC (no soft)
+==================================================
+  time_to_mastery_mean     :   26.667
+  time_to_mastery_std      :    5.891
+  feasible_rate_mean       :    0.917
+  feasible_rate_std        :    0.057
+  fatigue_overload_rate_mean:    0.083
+  fatigue_overload_rate_std:    0.057
+  avg_constraint_violation_mean:    0.003
+  avg_constraint_violation_std:    0.002
+  avg_fatigue_mean         :    0.495
+  avg_fatigue_std          :    0.021
+  total_reward_raw_mean    :  -33.555
+  total_reward_raw_std     :   10.818
+
+==================================================
+Agent: Safe-AC
+==================================================
+  time_to_mastery_mean     :   42.500
+  time_to_mastery_std      :    2.821
+  feasible_rate_mean       :    0.918
+  feasible_rate_std        :    0.016
+  fatigue_overload_rate_mean:    0.082
+  fatigue_overload_rate_std:    0.016
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.001
+  avg_fatigue_mean         :    0.478
+  avg_fatigue_std          :    0.096
+  total_reward_raw_mean    :  -52.674
+  total_reward_raw_std     :    5.241

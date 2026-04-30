@@ -1,0 +1,50 @@
+
+==================================================
+Agent: margin_0p05/PianoMPC
+==================================================
+  time_to_mastery_mean     :   25.973
+  time_to_mastery_std      :    3.964
+  feasible_rate_mean       :    0.915
+  feasible_rate_std        :    0.031
+  fatigue_overload_rate_mean:    0.085
+  fatigue_overload_rate_std:    0.031
+  avg_constraint_violation_mean:    0.003
+  avg_constraint_violation_std:    0.002
+  avg_fatigue_mean         :    0.495
+  avg_fatigue_std          :    0.037
+  guard_replacement_rate_mean:    0.000
+  guard_replacement_rate_std:    0.000
+  proposed_step_cap_violation_rate_mean:    0.187
+  proposed_step_cap_violation_rate_std:    0.058
+  time_to_mastery_ci95     :    3.964
+  feasible_rate_ci95       :    0.031
+  fatigue_overload_rate_ci95:    0.031
+  avg_constraint_violation_ci95:    0.002
+  avg_fatigue_ci95         :    0.037
+  guard_replacement_rate_ci95:    0.000
+  proposed_step_cap_violation_rate_ci95:    0.058
+
+==================================================
+Agent: margin_0p07/PianoMPC
+==================================================
+  time_to_mastery_mean     :   26.073
+  time_to_mastery_std      :    2.529
+  feasible_rate_mean       :    0.925
+  feasible_rate_std        :    0.027
+  fatigue_overload_rate_mean:    0.075
+  fatigue_overload_rate_std:    0.027
+  avg_constraint_violation_mean:    0.002
+  avg_constraint_violation_std:    0.002
+  avg_fatigue_mean         :    0.486
+  avg_fatigue_std          :    0.045
+  guard_replacement_rate_mean:    0.013
+  guard_replacement_rate_std:    0.007
+  proposed_step_cap_violation_rate_mean:    0.233
+  proposed_step_cap_violation_rate_std:    0.069
+  time_to_mastery_ci95     :    2.529
+  feasible_rate_ci95       :    0.027
+  fatigue_overload_rate_ci95:    0.027
+  avg_constraint_violation_ci95:    0.002
+  avg_fatigue_ci95         :    0.045
+  guard_replacement_rate_ci95:    0.007
+  proposed_step_cap_violation_rate_ci95:    0.069

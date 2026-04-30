@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "profile": "balanced",
+    "baseline_threshold": 0.75,
+    "baseline_mastery_window": 3,
+    "num_runs": 10,
+    "agents": [
+      "PianoMPC",
+      "CCB-DF",
+      "BayesianMAB"
+    ]
+  },
+  "threshold": {
+    "metrics": {
+      "0.8": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 23.1,
+          "time_to_mastery_std": 3.4785054261852175,
+          "feasible_rate_mean": 0.936048285048285,
+          "feasible_rate_std": 0.03513743093640855,
+          "avg_fatigue_mean": 0.40252811777695996,
+          "avg_fatigue_std": 0.021638305000128366,
+          "threshold_scale": 0.8,
+          "threshold_value": 0.6000000000000001,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 38.7,
+          "time_to_mastery_std": 10.22035007010795,
+          "feasible_rate_mean": 0.9499885748759713,
+          "feasible_rate_std": 0.017289822553997563,
+          "avg_fatigue_mean": 0.37774460606356597,
+          "avg_fatigue_std": 0.022182086022555638,
+          "threshold_scale": 0.8,
+          "threshold_value": 0.6000000000000001,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 32.6,
+          "time_to_mastery_std": 12.203824537141351,
+          "feasible_rate_mean": 0.9258968935340717,
+          "feasible_rate_std": 0.0873959521930086,
+          "avg_fatigue_mean": 0.36464217231296636,
+          "avg_fatigue_std": 0.08294581095262818,
+          "threshold_scale": 0.8,
+          "threshold_value": 0.6000000000000001,
+          "mastery_window": 3
+        }
+      },
+      "0.9": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 24.0,
+          "time_to_mastery_std": 2.9059326290271157,
+          "feasible_rate_mean": 0.9130739228565317,
+          "feasible_rate_std": 0.041984195423720276,
+          "avg_fatigue_mean": 0.46675086298564583,
+          "avg_fatigue_std": 0.017095347830871882,
+          "threshold_scale": 0.9,
+          "threshold_value": 0.675,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 35.4,
+          "time_to_mastery_std": 5.92921205182911,
+          "feasible_rate_mean": 0.928416498425986,
+          "feasible_rate_std": 0.056157865683656515,
+          "avg_fatigue_mean": 0.44987633681756084,
+          "avg_fatigue_std": 0.02989342094182828,
+          "threshold_scale": 0.9,
+          "threshold_value": 0.675,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 31.6,
+          "time_to_mastery_std": 7.862710869809612,
+          "feasible_rate_mean": 0.8978234141769545,
+          "feasible_rate_std": 0.06540575267616493,
+          "avg_fatigue_mean": 0.44962867211742175,
+          "avg_fatigue_std": 0.06556563862600989,
+          "threshold_scale": 0.9,
+          "threshold_value": 0.675,
+          "mastery_window": 3
+        }
+      },
+      "1.0": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 22.5,
+          "time_to_mastery_std": 2.5055493963954847,
+          "feasible_rate_mean": 0.9296874019700108,
+          "feasible_rate_std": 0.06079142231640841,
+          "avg_fatigue_mean": 0.5003240244055464,
+          "avg_fatigue_std": 0.027831926192565633,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 45.0,
+          "time_to_mastery_std": 6.815016100086957,
+          "feasible_rate_mean": 0.9311365449892728,
+          "feasible_rate_std": 0.048165850766327234,
+          "avg_fatigue_mean": 0.5205513500655152,
+          "avg_fatigue_std": 0.0345076508798205,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 32.7,
+          "time_to_mastery_std": 9.78717982305878,
+          "feasible_rate_mean": 0.9169739693332264,
+          "feasible_rate_std": 0.05898912653370628,
+          "avg_fatigue_mean": 0.5007121624193156,
+          "avg_fatigue_std": 0.10563638448636478,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        }
+      },
+      "1.1": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 24.8,
+          "time_to_mastery_std": 3.9944405810520647,
+          "feasible_rate_mean": 0.9403226915953787,
+          "feasible_rate_std": 0.05330797276589214,
+          "avg_fatigue_mean": 0.5497119841282571,
+          "avg_fatigue_std": 0.02932364076133124,
+          "threshold_scale": 1.1,
+          "threshold_value": 0.8250000000000001,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 43.6,
+          "time_to_mastery_std": 10.035492569431314,
+          "feasible_rate_mean": 0.9349512930784465,
+          "feasible_rate_std": 0.03205004745591168,
+          "avg_fatigue_mean": 0.5895655491516202,
+          "avg_fatigue_std": 0.019119210924940868,
+          "threshold_scale": 1.1,
+          "threshold_value": 0.8250000000000001,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 35.5,
+          "time_to_mastery_std": 10.40566085252531,
+          "feasible_rate_mean": 0.9227437142789554,
+          "feasible_rate_std": 0.04321414949138925,
+          "avg_fatigue_mean": 0.5608351687012255,
+          "avg_fatigue_std": 0.06641999736793819,
+          "threshold_scale": 1.1,
+          "threshold_value": 0.8250000000000001,
+          "mastery_window": 3
+        }
+      },
+      "1.2": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 25.3,
+          "time_to_mastery_std": 5.578729445153459,
+          "feasible_rate_mean": 0.9581201361181076,
+          "feasible_rate_std": 0.03370122616789905,
+          "avg_fatigue_mean": 0.5888128522132295,
+          "avg_fatigue_std": 0.03598003789194373,
+          "threshold_scale": 1.2,
+          "threshold_value": 0.8999999999999999,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 42.4,
+          "time_to_mastery_std": 8.669230390037836,
+          "feasible_rate_mean": 0.9374970456878877,
+          "feasible_rate_std": 0.03559455123156837,
+          "avg_fatigue_mean": 0.6489882903079002,
+          "avg_fatigue_std": 0.02283171432685233,
+          "threshold_scale": 1.2,
+          "threshold_value": 0.8999999999999999,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 33.4,
+          "time_to_mastery_std": 11.777568132306055,
+          "feasible_rate_mean": 0.9293703333498978,
+          "feasible_rate_std": 0.04616103252646001,
+          "avg_fatigue_mean": 0.6237117580836264,
+          "avg_fatigue_std": 0.06036393099434223,
+          "threshold_scale": 1.2,
+          "threshold_value": 0.8999999999999999,
+          "mastery_window": 3
+        }
+      }
+    },
+    "kendall_tau": {
+      "0.8": 1.0,
+      "0.9": 1.0,
+      "1.0": 1.0,
+      "1.1": 1.0,
+      "1.2": 1.0
+    }
+  },
+  "window": {
+    "metrics": {
+      "1": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 15.3,
+          "time_to_mastery_std": 2.4517567397911058,
+          "feasible_rate_mean": 0.9621153846153847,
+          "feasible_rate_std": 0.04122348130512356,
+          "avg_fatigue_mean": 0.4296726923076924,
+          "avg_fatigue_std": 0.034153647959885465,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 1
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 22.3,
+          "time_to_mastery_std": 2.0027758514399734,
+          "feasible_rate_mean": 0.9359064124281515,
+          "feasible_rate_std": 0.032799172471980394,
+          "avg_fatigue_mean": 0.5018494521565392,
+          "avg_fatigue_std": 0.02200027011347541,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 1
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 18.5,
+          "time_to_mastery_std": 3.719318934070233,
+          "feasible_rate_mean": 0.9505819327731093,
+          "feasible_rate_std": 0.059863889313218906,
+          "avg_fatigue_mean": 0.41352087804664783,
+          "avg_fatigue_std": 0.1298424159482297,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 1
+        }
+      },
+      "2": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 19.9,
+          "time_to_mastery_std": 3.2128215360057304,
+          "feasible_rate_mean": 0.8944699528795639,
+          "feasible_rate_std": 0.044533146829081764,
+          "avg_fatigue_mean": 0.49259257767665715,
+          "avg_fatigue_std": 0.02652243418028164,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 2
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 31.6,
+          "time_to_mastery_std": 4.742245131674331,
+          "feasible_rate_mean": 0.9174476951771167,
+          "feasible_rate_std": 0.05470595206565181,
+          "avg_fatigue_mean": 0.532181572983464,
+          "avg_fatigue_std": 0.0245801134836654,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 2
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 25.4,
+          "time_to_mastery_std": 6.328067986711619,
+          "feasible_rate_mean": 0.8990926298055454,
+          "feasible_rate_std": 0.0829719939977621,
+          "avg_fatigue_mean": 0.4880473464559737,
+          "avg_fatigue_std": 0.09272015908939071,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 2
+        }
+      },
+      "3": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 23.0,
+          "time_to_mastery_std": 2.260776661041756,
+          "feasible_rate_mean": 0.9209977760607051,
+          "feasible_rate_std": 0.034715072218954215,
+          "avg_fatigue_mean": 0.503118297968241,
+          "avg_fatigue_std": 0.019960581843106954,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 43.6,
+          "time_to_mastery_std": 10.221980673474631,
+          "feasible_rate_mean": 0.9312126864429,
+          "feasible_rate_std": 0.048438520162892275,
+          "avg_fatigue_mean": 0.5204249075989196,
+          "avg_fatigue_std": 0.03267930313299712,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 31.8,
+          "time_to_mastery_std": 6.408327915038889,
+          "feasible_rate_mean": 0.9196601131886328,
+          "feasible_rate_std": 0.05066611928013945,
+          "avg_fatigue_mean": 0.5004743970151541,
+          "avg_fatigue_std": 0.08832712216731435,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 3
+        }
+      },
+      "4": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 29.7,
+          "time_to_mastery_std": 5.755190893638735,
+          "feasible_rate_mean": 0.9076805866767504,
+          "feasible_rate_std": 0.04084198062770761,
+          "avg_fatigue_mean": 0.5331911469604569,
+          "avg_fatigue_std": 0.01687859090714014,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 4
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 57.3,
+          "time_to_mastery_std": 9.603818684946802,
+          "feasible_rate_mean": 0.9141966255458698,
+          "feasible_rate_std": 0.02735279360345887,
+          "avg_fatigue_mean": 0.5353318249934043,
+          "avg_fatigue_std": 0.018253090894346735,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 4
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 48.5,
+          "time_to_mastery_std": 21.783020910791965,
+          "feasible_rate_mean": 0.8983278360242366,
+          "feasible_rate_std": 0.055674800801676076,
+          "avg_fatigue_mean": 0.5161352604044465,
+          "avg_fatigue_std": 0.06466036101622945,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 4
+        }
+      },
+      "5": {
+        "PianoMPC": {
+          "time_to_mastery_mean": 30.5,
+          "time_to_mastery_std": 7.749551958375114,
+          "feasible_rate_mean": 0.8808565301425342,
+          "feasible_rate_std": 0.05242775056709886,
+          "avg_fatigue_mean": 0.5375368882673938,
+          "avg_fatigue_std": 0.028269114971308296,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 5
+        },
+        "CCB-DF": {
+          "time_to_mastery_mean": 107.1,
+          "time_to_mastery_std": 55.879731964679685,
+          "feasible_rate_mean": 0.9288754501040059,
+          "feasible_rate_std": 0.041179624632005696,
+          "avg_fatigue_mean": 0.5296688732601329,
+          "avg_fatigue_std": 0.02999218132899934,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 5
+        },
+        "BayesianMAB": {
+          "time_to_mastery_mean": 69.6,
+          "time_to_mastery_std": 41.60181619966983,
+          "feasible_rate_mean": 0.8980308895677865,
+          "feasible_rate_std": 0.045770542370567435,
+          "avg_fatigue_mean": 0.5204938571641171,
+          "avg_fatigue_std": 0.10265834902409844,
+          "threshold_scale": 1.0,
+          "threshold_value": 0.75,
+          "mastery_window": 5
+        }
+      }
+    },
+    "kendall_tau": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+    }
+  }
+}

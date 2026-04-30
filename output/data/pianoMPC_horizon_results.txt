@@ -1,0 +1,48 @@
+
+==================================================
+Agent: H=1
+==================================================
+  time_to_mastery_mean     :   25.600
+  time_to_mastery_std      :    5.024
+  feasible_rate_mean       :    0.850
+  feasible_rate_std        :    0.119
+  avg_fatigue_mean         :    0.518
+  avg_fatigue_std          :    0.013
+  total_reward_raw_mean    :  -32.222
+  total_reward_raw_std     :    9.488
+
+==================================================
+Agent: H=3
+==================================================
+  time_to_mastery_mean     :   26.200
+  time_to_mastery_std      :    4.739
+  feasible_rate_mean       :    0.918
+  feasible_rate_std        :    0.059
+  avg_fatigue_mean         :    0.494
+  avg_fatigue_std          :    0.024
+  total_reward_raw_mean    :  -33.089
+  total_reward_raw_std     :    9.742
+
+==================================================
+Agent: H=5
+==================================================
+  time_to_mastery_mean     :   31.233
+  time_to_mastery_std      :    9.813
+  feasible_rate_mean       :    0.998
+  feasible_rate_std        :    0.009
+  avg_fatigue_mean         :    0.439
+  avg_fatigue_std          :    0.068
+  total_reward_raw_mean    :  -38.856
+  total_reward_raw_std     :   15.616
+
+==================================================
+Agent: H=10
+==================================================
+  time_to_mastery_mean     :   25.600
+  time_to_mastery_std      :    0.657
+  feasible_rate_mean       :    1.000
+  feasible_rate_std        :    0.000
+  avg_fatigue_mean         :    0.429
+  avg_fatigue_std          :    0.075
+  total_reward_raw_mean    :  -32.065
+  total_reward_raw_std     :    4.861

@@ -1,0 +1,304 @@
+
+==================================================
+Agent: LinUCB
+==================================================
+  time_to_mastery_mean     :   49.233
+  time_to_mastery_std      :    5.964
+  total_reward_mean        :   44.521
+  total_reward_std         :    4.677
+  total_reward_raw_mean    :  -62.472
+  total_reward_raw_std     :    9.114
+  avg_reward_raw_mean      :   -1.287
+  avg_reward_raw_std       :    0.167
+  sample_efficiency_mean   :   49.233
+  sample_efficiency_std    :    5.964
+  avg_async_mean           :   28.992
+  avg_async_std            :    5.691
+  avg_dom_gap_mean         :    8.243
+  avg_dom_gap_std          :    1.744
+  avg_fid_mean             :    0.525
+  avg_fid_std              :    0.036
+  skill_improvement_mean   :    0.718
+  skill_improvement_std    :    0.049
+  retention_delta_mean     :    0.699
+  retention_delta_std      :    0.110
+  independence_gain_mean   :   29.194
+  independence_gain_std    :    4.453
+  regret_mean              :  -44.521
+  regret_std               :    4.677
+  avg_fatigue_mean         :    0.513
+  avg_fatigue_std          :    0.106
+  avg_constraint_violation_mean:    0.001
+  avg_constraint_violation_std:    0.001
+  fatigue_overload_rate_mean:    0.035
+  fatigue_overload_rate_std:    0.014
+  feasible_rate_mean       :    0.965
+  feasible_rate_std        :    0.014
+  steps_mean               :   49.233
+  steps_std                :    5.964
+
+==================================================
+Agent: Thompson
+==================================================
+  time_to_mastery_mean     :   44.967
+  time_to_mastery_std      :    4.039
+  total_reward_mean        :   39.602
+  total_reward_std         :    5.467
+  total_reward_raw_mean    :  -55.455
+  total_reward_raw_std     :   10.046
+  avg_reward_raw_mean      :   -1.253
+  avg_reward_raw_std       :    0.162
+  sample_efficiency_mean   :   44.967
+  sample_efficiency_std    :    4.039
+  avg_async_mean           :   28.163
+  avg_async_std            :    4.814
+  avg_dom_gap_mean         :    8.232
+  avg_dom_gap_std          :    1.740
+  avg_fid_mean             :    0.538
+  avg_fid_std              :    0.036
+  skill_improvement_mean   :    0.716
+  skill_improvement_std    :    0.052
+  retention_delta_mean     :    0.674
+  retention_delta_std      :    0.111
+  independence_gain_mean   :   28.320
+  independence_gain_std    :    1.640
+  regret_mean              :  -39.602
+  regret_std               :    5.467
+  avg_fatigue_mean         :    0.490
+  avg_fatigue_std          :    0.091
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.003
+  fatigue_overload_rate_mean:    0.080
+  fatigue_overload_rate_std:    0.040
+  feasible_rate_mean       :    0.920
+  feasible_rate_std        :    0.040
+  steps_mean               :   44.967
+  steps_std                :    4.039
+
+==================================================
+Agent: PianoMPC
+==================================================
+  time_to_mastery_mean     :   26.200
+  time_to_mastery_std      :    4.739
+  total_reward_mean        :   21.880
+  total_reward_std         :   10.272
+  total_reward_raw_mean    :  -33.089
+  total_reward_raw_std     :    9.742
+  avg_reward_raw_mean      :   -1.265
+  avg_reward_raw_std       :    0.147
+  sample_efficiency_mean   :   26.200
+  sample_efficiency_std    :    4.739
+  avg_async_mean           :   39.599
+  avg_async_std            :    2.226
+  avg_dom_gap_mean         :    7.913
+  avg_dom_gap_std          :    1.621
+  avg_fid_mean             :    0.605
+  avg_fid_std              :    0.043
+  skill_improvement_mean   :    0.505
+  skill_improvement_std    :    0.092
+  retention_delta_mean     :    0.431
+  retention_delta_std      :    0.169
+  independence_gain_mean   :   21.768
+  independence_gain_std    :    1.372
+  regret_mean              :  -21.880
+  regret_std               :   10.272
+  avg_fatigue_mean         :    0.494
+  avg_fatigue_std          :    0.024
+  avg_constraint_violation_mean:    0.002
+  avg_constraint_violation_std:    0.002
+  fatigue_overload_rate_mean:    0.082
+  fatigue_overload_rate_std:    0.059
+  feasible_rate_mean       :    0.918
+  feasible_rate_std        :    0.059
+  steps_mean               :   26.200
+  steps_std                :    4.739
+
+==================================================
+Agent: DQN
+==================================================
+  time_to_mastery_mean     :   50.767
+  time_to_mastery_std      :   14.409
+  total_reward_mean        :   41.651
+  total_reward_std         :   12.869
+  total_reward_raw_mean    :  -60.485
+  total_reward_raw_std     :   10.120
+  avg_reward_raw_mean      :   -1.226
+  avg_reward_raw_std       :    0.217
+  sample_efficiency_mean   :   50.767
+  sample_efficiency_std    :   14.409
+  avg_async_mean           :   26.108
+  avg_async_std            :    8.153
+  avg_dom_gap_mean         :    7.961
+  avg_dom_gap_std          :    1.027
+  avg_fid_mean             :    0.536
+  avg_fid_std              :    0.061
+  skill_improvement_mean   :    0.696
+  skill_improvement_std    :    0.097
+  retention_delta_mean     :    0.676
+  retention_delta_std      :    0.159
+  independence_gain_mean   :   28.086
+  independence_gain_std    :    1.226
+  regret_mean              :  -41.651
+  regret_std               :   12.869
+  avg_fatigue_mean         :    0.485
+  avg_fatigue_std          :    0.129
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.000
+  fatigue_overload_rate_mean:    0.093
+  fatigue_overload_rate_std:    0.010
+  feasible_rate_mean       :    0.907
+  feasible_rate_std        :    0.010
+  steps_mean               :   50.767
+  steps_std                :   14.409
+
+==================================================
+Agent: BayesianMAB
+==================================================
+  time_to_mastery_mean     :   38.367
+  time_to_mastery_std      :    7.032
+  total_reward_mean        :   30.761
+  total_reward_std         :    5.498
+  total_reward_raw_mean    :  -47.041
+  total_reward_raw_std     :   13.198
+  avg_reward_raw_mean      :   -1.230
+  avg_reward_raw_std       :    0.164
+  sample_efficiency_mean   :   38.367
+  sample_efficiency_std    :    7.032
+  avg_async_mean           :   28.500
+  avg_async_std            :    2.329
+  avg_dom_gap_mean         :    8.154
+  avg_dom_gap_std          :    1.667
+  avg_fid_mean             :    0.551
+  avg_fid_std              :    0.061
+  skill_improvement_mean   :    0.681
+  skill_improvement_std    :    0.094
+  retention_delta_mean     :    0.614
+  retention_delta_std      :    0.158
+  independence_gain_mean   :   27.647
+  independence_gain_std    :    1.775
+  regret_mean              :  -30.761
+  regret_std               :    5.498
+  avg_fatigue_mean         :    0.470
+  avg_fatigue_std          :    0.184
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.002
+  fatigue_overload_rate_mean:    0.095
+  fatigue_overload_rate_std:    0.060
+  feasible_rate_mean       :    0.905
+  feasible_rate_std        :    0.060
+  steps_mean               :   38.367
+  steps_std                :    7.032
+
+==================================================
+Agent: CCB-DF
+==================================================
+  time_to_mastery_mean     :   46.133
+  time_to_mastery_std      :   10.354
+  total_reward_mean        :   41.991
+  total_reward_std         :    6.382
+  total_reward_raw_mean    :  -62.632
+  total_reward_raw_std     :   17.968
+  avg_reward_raw_mean      :   -1.368
+  avg_reward_raw_std       :    0.097
+  sample_efficiency_mean   :   46.133
+  sample_efficiency_std    :   10.354
+  avg_async_mean           :   31.035
+  avg_async_std            :    1.580
+  avg_dom_gap_mean         :    8.422
+  avg_dom_gap_std          :    2.119
+  avg_fid_mean             :    0.493
+  avg_fid_std              :    0.013
+  skill_improvement_mean   :    0.700
+  skill_improvement_std    :    0.101
+  retention_delta_mean     :    0.661
+  retention_delta_std      :    0.192
+  independence_gain_mean   :   26.512
+  independence_gain_std    :    2.357
+  regret_mean              :  -41.991
+  regret_std               :    6.382
+  avg_fatigue_mean         :    0.478
+  avg_fatigue_std          :    0.113
+  avg_constraint_violation_mean:    0.003
+  avg_constraint_violation_std:    0.001
+  fatigue_overload_rate_mean:    0.070
+  fatigue_overload_rate_std:    0.013
+  feasible_rate_mean       :    0.930
+  feasible_rate_std        :    0.013
+  steps_mean               :   46.133
+  steps_std                :   10.354
+
+==================================================
+Agent: Safe-AC
+==================================================
+  time_to_mastery_mean     :   42.500
+  time_to_mastery_std      :    2.821
+  total_reward_mean        :   37.535
+  total_reward_std         :    2.226
+  total_reward_raw_mean    :  -52.674
+  total_reward_raw_std     :    5.241
+  avg_reward_raw_mean      :   -1.253
+  avg_reward_raw_std       :    0.192
+  sample_efficiency_mean   :   42.500
+  sample_efficiency_std    :    2.821
+  avg_async_mean           :   28.417
+  avg_async_std            :    5.612
+  avg_dom_gap_mean         :    8.170
+  avg_dom_gap_std          :    1.735
+  avg_fid_mean             :    0.539
+  avg_fid_std              :    0.049
+  skill_improvement_mean   :    0.715
+  skill_improvement_std    :    0.028
+  retention_delta_mean     :    0.664
+  retention_delta_std      :    0.075
+  independence_gain_mean   :   29.437
+  independence_gain_std    :    1.936
+  regret_mean              :  -37.535
+  regret_std               :    2.226
+  avg_fatigue_mean         :    0.478
+  avg_fatigue_std          :    0.096
+  avg_constraint_violation_mean:    0.004
+  avg_constraint_violation_std:    0.001
+  fatigue_overload_rate_mean:    0.082
+  fatigue_overload_rate_std:    0.016
+  feasible_rate_mean       :    0.918
+  feasible_rate_std        :    0.016
+  steps_mean               :   42.500
+  steps_std                :    2.821
+
+==================================================
+Agent: AutoCurriculum
+==================================================
+  time_to_mastery_mean     :   56.967
+  time_to_mastery_std      :   11.121
+  total_reward_mean        :   39.224
+  total_reward_std         :   16.213
+  total_reward_raw_mean    :  -66.160
+  total_reward_raw_std     :   19.176
+  avg_reward_raw_mean      :   -1.184
+  avg_reward_raw_std       :    0.139
+  sample_efficiency_mean   :   56.967
+  sample_efficiency_std    :   11.121
+  avg_async_mean           :   23.644
+  avg_async_std            :    3.000
+  avg_dom_gap_mean         :    8.182
+  avg_dom_gap_std          :    1.516
+  avg_fid_mean             :    0.550
+  avg_fid_std              :    0.037
+  skill_improvement_mean   :    0.747
+  skill_improvement_std    :    0.091
+  retention_delta_mean     :    0.747
+  retention_delta_std      :    0.160
+  independence_gain_mean   :   29.346
+  independence_gain_std    :    1.338
+  regret_mean              :  -39.224
+  regret_std               :   16.213
+  avg_fatigue_mean         :    0.444
+  avg_fatigue_std          :    0.085
+  avg_constraint_violation_mean:    0.003
+  avg_constraint_violation_std:    0.000
+  fatigue_overload_rate_mean:    0.063
+  fatigue_overload_rate_std:    0.006
+  feasible_rate_mean       :    0.937
+  feasible_rate_std        :    0.006
+  steps_mean               :   56.967
+  steps_std                :   11.121
